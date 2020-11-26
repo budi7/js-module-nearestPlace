@@ -86,6 +86,7 @@ nearestPlace.get(loc, outlets, (rslt) => {
         // no service
     } else {
         // returning nearest (nearest value found on outlets - index value)
+        console.log (rslt)
         console.log (outlets[rslt])
     }
 })
